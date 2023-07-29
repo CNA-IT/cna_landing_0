@@ -1,0 +1,384 @@
+@media (max-height: 800px) {
+  .top {
+    padding-top: 20px;
+    &__info {
+      margin-top: 55px;
+    }
+  }
+}
+@media (max-width: 1024px) {
+  .top {
+    &__title {
+      padding-top: 30px;
+    }
+    &__info {
+      &-box {
+        &-3 {
+          & .top__info-svg {
+            left: 20px;
+          }
+        }
+        &-4 {
+          & .top__info-svg {
+            left: 20px;
+          }
+        }
+        &-5 {
+          & .top__info-svg {
+            right: 20px;
+          }
+        }
+        &-6 {
+          & .top__info-svg {
+            right: 20px;
+          }
+        }
+      }
+    }
+  }
+  .possibilities {
+    &__container {
+      padding: 0;
+    }
+    &__title {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+    &__slider {
+      padding: 0 16px;
+    }
+    &__items {
+      &-grid {
+        height: 100%;
+      }
+    }
+    &__box {
+      &-title {
+        margin-left: 16px;
+        margin-right: 16px;
+      }
+    }
+  }
+  .rates {
+    &__container {
+      padding: 0;
+    }
+    &__title {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+    &__paragraph {
+      &-subtitle {
+        text-align: right;
+      }
+    }
+  }
+  .clients {
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+    &__items {
+      grid-template-columns: repeat(5, 1fr);
+    }
+    &__item {
+      &-next {
+        display: none;
+      }
+    }
+    &__mob {
+      &-btn {
+        display: inline-block;
+        margin: 16px auto 0;
+        font-size: 16px;
+        line-height: 18px;
+        color: #003e73;
+        padding-bottom: 6px;
+        border-bottom: 1px solid #003e73;
+        &--hidden {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 965px) {
+  .top {
+    &__info {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 32px 20px;
+      &-title {
+        grid-column: span 2;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      &-box {
+        position: static;
+        svg {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .footer {
+    &__wrapper {
+      flex-direction: column;
+      grid-gap: 37px;
+    }
+    &__copy {
+      flex-direction: column;
+      margin-top: 20px;
+      grid-gap: 28px;
+    }
+    &__title {
+      margin-bottom: 16px;
+    }
+    &__box {
+      grid-gap: 0;
+    }
+  }
+}
+@media (max-width: 840px) {
+  .clients {
+    &__items {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+}
+@media (max-width: 796px) {
+  .header {
+    &__box {
+      &-pop {
+        display: none;
+      }
+    }
+    &__logo {
+      z-index: 5;
+    }
+    &__list {
+      display: none;
+    }
+    &__box {
+      &-content {
+        display: none;
+      }
+    }
+    &__mob {
+      display: flex;
+      align-items: center;
+      z-index: 5;
+      &-list {
+        display: flex;
+        flex-direction: column;
+      }
+      &-btn {
+        display: block;
+      }
+    }
+  }
+  .clients {
+    &__items {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    &__item {
+      min-height: 110px;
+    }
+  }
+}
+@media (max-width: 640px) {
+  .title {
+    font-size: 26px;
+    line-height: 120%;
+    margin-bottom: 12px;
+    &__line {
+      margin-bottom: 20px;
+    }
+  }
+  .top {
+    padding: 34px 0;
+    &__wrapper {
+      min-height: 770px;
+    }
+    &__title {
+      font-size: 28px;
+      line-height: 120%;
+      margin-bottom: 28px;
+    }
+    &__areas {
+      grid-template-columns: auto max-content;
+    }
+    &__example {
+      //display: none;
+      grid-column: 1 / 3;
+      margin: 0 auto;
+      min-width: 50%;
+      padding: 0 20%;
+      .top__btn-text {
+        display: block;
+      }
+    }
+    &__btn {
+      &-text {
+        display: none;
+      }
+      &-img {
+        margin: 0;
+        transform: scale(1.45);
+      }
+    }
+    &__info {
+      margin-top: 64px;
+      font-size: 22px;
+      line-height: 120%;
+      &-title {
+        font-size: 22px;
+        line-height: 120%;
+        margin-bottom: 8px;
+      }
+      &-box {
+        &-title {
+          margin-bottom: 0px;
+          font-size: 18px;
+          line-height: 28px;
+        }
+        &-text {
+          font-size: 15px;
+          line-height: 20px;
+        }
+      }
+    }
+    &__input {
+      &-helper {
+        left: -289px;
+      }
+    }
+  }
+  .possibilities {
+    padding: 34px 0;
+    &__box {
+      &-title {
+        margin-bottom: 12px;
+        font-size: 19px;
+        line-height: 25px;
+      }
+      & + & {
+        margin-top: 32px;
+      }
+    }
+    &__item {
+      padding: 20px;
+      min-height: 164px;
+      &-title {
+        margin: 16px 0 8px;
+        font-size: 19px;
+        line-height: 22px;
+      }
+      &-image {
+        min-height: 40px;
+        height: 40px;
+      }
+    }
+  }
+  .rates {
+    padding: 34px 0;
+    &__item {
+      padding: 20px;
+      &-title {
+        margin-bottom: 28px;
+        font-size: 24px;
+        line-height: 120%;
+      }
+    }
+    &__paragraph {
+      &-title {
+        font-size: 14px;
+        line-height: 16px;
+      }
+      &-subtitle {
+        font-size: 14px;
+        line-height: 16px;
+      }
+    }
+    &__btn {
+      a {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0 16px;
+      }
+    }
+  }
+  .about {
+    padding: 34px 0;
+    &__text {
+      font-size: 15px;
+      line-height: 20px;
+    }
+  }
+  .clients {
+    &__items {
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 16px;
+    }
+  }
+  .news {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 475px) {
+  .top {
+    &__input {
+      &-helper {
+        left: -192px;
+      }
+    }
+  }
+}
+@media (max-width: 425px) {
+  .clients {
+    &__items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .news {
+    &__form {
+      flex-direction: column;
+      grid-gap: 16px;
+    }
+    &__text {
+      font-size: 15px;
+      line-height: 20px;
+      max-width: 287px;
+      width: 100%;
+    }
+    &__btn {
+      margin: 0;
+      max-width: 100%;
+      width: 100%;
+    }
+  }
+}
+@media (max-width: 375px) {
+  .top {
+    &__input {
+      &-helper {
+        left: -149px;
+        width: 270px;
+      }
+    }
+  }
+}
+@media (max-width: 333px) {
+  .top {
+    &__input {
+      &-helper {
+        left: -136px;
+      }
+    }
+  }
+}

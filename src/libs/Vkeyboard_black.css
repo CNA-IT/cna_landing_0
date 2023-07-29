@@ -1,0 +1,106 @@
+
+#Vkeyboard_wrapper{
+	display: none;
+	
+}
+#Vkeyboard_lines{
+	position: absolute;
+	width:570px;
+	height:250px;
+	border:1px solid #545353;
+	background-color: white;
+	border-radius:10px;
+	overflow: hidden;
+}
+
+
+#Vkeyboard_first_line,#Vkeyboard_second_line,#Vkeyboard_third_line,#Vkeyboard_fourth_line,#Vkeyboard_fifth_line{
+	width:900px;
+	margin-left:5px;
+	padding:5px 0px;
+}
+
+#Vkeyboard_first_line  #bksp_btn,#Vkeyboard_second_line #tab_btn,#Vkeyboard_third_line #caps_btn{
+	width:50px !important;
+}
+#Vkeyboard_fourth_line  #shift_btn{
+	width:58px;
+}
+
+#Vkeyboard_fifth_line #space_btn{
+width:300px;
+}
+#Vkeyboard_fifth_line #clear_btn{
+width:226px;
+}
+
+.Vkeyboard_btns,.Vkeyboard_alpha,.Vkeyboard_extra{
+	display: inline-block;
+	text-align: center;
+	width:25px;
+	padding:5px;
+	color:white;
+	font:17px century;
+	background-color: #333231;
+	border:1px solid #545353;
+	cursor: pointer;
+	box-shadow: 0px 2px 0px #2d2d2d;
+}
+
+.Vkeyboard_div_extras{
+	display:none;
+}
+.Vkeyboard_first{
+	font:12px century;
+	color:#bfbfbf;
+}
+
+
+.Vkeyboard_btns:hover,.Vkeyboard_alpha:hover,.Vkeyboard_extra:hover{
+	border:1px solid #727271;
+	background-color:#727271;
+}
+.Vkeyboard_btns:active,.Vkeyboard_alpha:active,.Vkeyboard_extra:active{
+	color: black;
+	background-color: white;
+}
+
+#Vkeyboard_close{
+	cursor: pointer;
+	margin-left:572px;
+	margin-top:30px;
+	position: absolute;
+	width:30px;
+	text-align: center;
+	padding:5px;
+	font:25px cambria;
+	background-color: #333231;
+	color:white;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+
+.Vkeyboard_btn_activated{
+	display: inline-block;
+	text-align: center;
+	width:40px;
+	padding:5px;
+	color:black;
+	font:17px century;
+	background-color:white;
+	border:1px solid #545353;
+	cursor: pointer;
+	box-shadow: 0px 2px 0px #2d2d2d;
+}
+#Vkeyboard_form{
+	margin-top:5px;
+}
+#Vkeyboard_form label{
+	font:17px cambria;
+}
+#Vkeyboard_form #Vkeyboard_checkbox,.Vkeyboard_text_decoration{
+	vertical-align:-2px;
+}
+#Vkeyboard_div_extras_o{
+	margin-left: -222px;
+}
