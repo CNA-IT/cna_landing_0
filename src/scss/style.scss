@@ -608,6 +608,18 @@
       text-align: center;
     }
   }
+  &__tariffs_btn {
+    a {
+      display: flex;
+      align-items: center;
+      @extend %rob-400;
+      font-size: 16px;
+      line-height: 21px;
+      padding: 5px 14px;
+      color: #003e73;
+      text-decoration: underline;
+    }
+  }
   &__btn {
     display: flex;
     justify-content: center;
